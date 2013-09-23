@@ -1,9 +1,7 @@
 % Source location: https://github.com/fabaff/abbreviations-tex
 % Released under the BSD license. See LICENSE file for details.
-
-
-
-% Usage/Verwendung
+%
+% Usage - Verwendung
 %
 % \ac{KDE}   Gibt bei der ersten Verwendung die Langform mit der Abkürzung in Klammern aus, ab dann stets die Kurzform.
 % \acs{KDE}  Gibt die Abkürzung aus.
@@ -15,8 +13,8 @@
 \section{Abkürzungsverzeichnis}\label{abbr}
 %
 \begin{acronym}
-\setlength{\itemsep}{-\parsep}
-\renewcommand{\bflabel}[1]{\normalfont{\normalsize{#1}}\hfill}
+\setlength{\itemsep}{-\parsep} %Entfernen des Abstand
+\renewcommand{\bflabel}[1]{\normalfont{\normalsize{#1}}\hfill} % Korrektur der Schriftart
 
 %0-9
 \acro{1NF}{Erste Normalform (engl. First Normal Form)}
@@ -49,6 +47,7 @@
 \acro{ASCII}{American Standard Code for Information Interchange (amerikanische Standardkodierung für den Informationsaustausch)}
 \acro{ARP}{Address Resolution Protocol}
 \acro{ARPANET}{Advanced Research Projects Agency Network}
+
 %B
 \acro{BAKOM}{Bundesamt für Kommunikation}
 \acro{Bash}{Bourne-again shell}
@@ -72,7 +71,7 @@
 \acro{CDATA}{Character Data}
 \acro{CDC}{Connected Device Configuration}
 \acro{CDE}{Common Desktop Environment}
-\acro{CEN}{Europäische Komitee für Normung, franz. Comit\'{e} Europ\'{e}en de Normalisation}
+\acro{CEN}{Europäische Komitee für Normung, franz. Comitée Européen de Normalisation}
 \acro{CEPT}{Conférence Européenne des Administrations des Postes et des Télécommunications}
 \acro{CF}{CompactFlash}
 \acro{CERT}{Computer Emergency Response Team}
@@ -123,23 +122,44 @@
 \acro{DXF}{Drawing Interchange Format}
 \acro{DARPA}{Defense Advanced Research Projects Agency}
 
-%E 
+%E
+\acro{EAI}{Enterprise Application Integration}
 \acro{EEC}{European Economic Community}
 \acro{EJPD}{Eidgen\"{o}ssisches Justiz- und Polizeidepartement}
 \acro{EN}{Europäische Norm}
 \acro{EURAMET}{European Association of National Metrology Institutes}
-%\acro{EWG}{Europäische Wirtschaftsgemeinschaft, auch EEC}
+\acro{EWG}{Europäische Wirtschaftsgemeinschaft, auch EEC}
 %\acro{EDÖB}{Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter}
 \acro{Ext2}{Second extended Filesystem}
+\acro{ERP}{Enterprise Resource Planning}
+\acro{EIDE}{Enhanced IDE}
+\acro{EGA}{Enhanced Graphics Array}
+\acro{EPROM}{Erasable Programmable Read-Only Memory}
+\acro{EEPROM}{Electronically Erasable Programmable Read-Only Memory}
+\acro{EBML}{Extensible Binary Meta Language}
+\acro{EOF}{End of File}
+\acro{EFF}{Electronic Frontier Foundation}
+\acro{EISA}{Extended Industry Standard Architecture}
+\acro{ESB}{Enterprise Service Bus}
+\acro{ESD}{Electrostatic Discharge}
 
 %F
 \acro{FAT}{File Allocation Table}
-\acro{FDDI}{Fiber Distributed Data Interface}
 \acro{FDMA}{Frequency Division Multiple Access}
 \acro{FE}{Finite Elemente oder auch Finite-Elemente-Methode (FEM)}
 \acro{FCC}{Federal Communications Commission}
 \acro{FDE}{Full Disk encryption}
+\acro{FSB}{Front Side Bus}
 \acro{FTP}{File Transfer Protocol}
+\acro{FHS}{Filesystem Hierarchy Standard}
+\acro{FLOSS}{Free/Libre/Open Source Software}
+\acro{FLOSS}{Free and Open Source Software}
+\acro{FEM}{Finite Element method}
+\acro{FPS}{Floating Point Systems}
+\acro{FPGA}{Field Programmable Gate Array}
+\acro{FLOPS}{FLoating-Point Operations Per Second}
+\acro{FSF}{Free Software Fundation}
+\acro{FSM}{Finite State Machine}
 
 %G
 \acro{GINA}{Graphical Identification and Authentication}
@@ -164,7 +184,7 @@
 \acro{HTCP}{Hyper Text Caching Protocol}
 \acro{HTTP}{Hypertext Transfer Protocol}
 \acro{HTTPS}{Secure Hypertext Transfer Protocol}
-
+\acro{HHS}{Hacker Highschool}
 
 %I
 \acro{I2C}{Inter-Integrated Circuit}
@@ -183,6 +203,7 @@
 \acro{ISP}{Internet Service Provider}
 
 %K
+\acro{KB}{Knowledge Base}
 \acro{KDE}{K Desktop Environment}
 \acro{KDC}{Kerberos Key Distribution Center}
 \acro{KEK}{Key Encryption Key}
@@ -216,7 +237,8 @@
 \acro{METAS}{Bundesamt für Metrologie und Akkreditierung}
 \acro{MFM}{Modified Frequency Modulation}
 \acro{MFT}{Master File Table}
-\acro{MGCP}{Media Gateway Control Protocol}
+\acro{MIME}{Multipurpose Internet Mail Extensions}
+\acro{MIS}{Management Information Systems}
 \acro{MMV}{Messmittelverordnung}
 \acro{MPI}{Message Passing Interface}
 \acro{MPLS}{Multiprotocol Label Switching}
@@ -226,12 +248,22 @@
 \acro{MSN}{Microsoft Network}
 \acro{MTU}{Maximum Transmission Unit}
 \acro{MUA}{Mail User Agent}
+\acro{MX}{Mail Exchange}
+\acro{MIPS}{Microprocessor without Interlocked Pipeline Stages oder Million Instructions Per Second}
+\acro{MIB}{Management Information Base}
+\acro{MAC}{Mandatory Access Control}
+\acro{MAPI}{Messaging Application Programming Interface}
+\acro{MANET}{Mobile Ad-Hoc Network}
 
 %N
+\acro{NAT}{Network Address Translation}
 \acro{NCP}{Network Control Program}
 \acro{NDIS}{Network Driver Interface Specification}
+\acro{NDPS}{Novell Distributed Print Services}
 \acro{NDS}{Novell Directory Services}
 \acro{NEDC}{New Enterprise Data Center}
+\acro{NCSA}{National Center for Supercomputing Applications}
+\acro{NFC}{Near field communication}
 \acro{NFS}{Network File System}
 \acro{NIC}{Network Information Center oder Network Interface Card}
 \acro{NIST}{National Institute of Standards and Technology}
@@ -310,7 +342,6 @@
 \acro{RDP}{Remote Desktop Protocol}
 \acro{RED}{Random Early Detection}
 \acro{REST}{Representational State Transfer}
-\acro{RFC}{Request for Comments}
 \acro{RIA}{Rich Internet Application}
 \acro{RIMM}{Rambus In-Line Memory Modul}
 \acro{RIP}{Routing Information Protocol}
@@ -319,7 +350,6 @@
 \acro{RSA}{Rivest, Shamir, Adleman}
 \acro{RSH}{Remote Shell}
 \acro{RSS}{Really Simple Syndication}
-\acro{RSVP}{Resource Reservation Protocol}
 \acro{RTC}{Real Time Clock}
 \acro{RTF}{Rich Text Format}
 \acro{RTFM}{Read The Fucking Manual}
@@ -402,8 +432,6 @@
 \acro{UDMA}{Ultra-Direct Memory Access}
 \acro{UDP}{User Datagram Protocol}
 \acro{UEFI}{Unified Extensible Firmware Interface}
-\acro{UMA}{Upper Memory Area}
-\acro{UMB}{Upper Memory Block}
 \acro{UML}{Unified Modeling Language}
 \acro{UMTS}{Universal Mobile Telecommunications System}
 \acro{UPnP}{Universal Plug and Play}
@@ -435,11 +463,6 @@
 \acro{VSAM}{Virtual Storage Access Method}
 
 %W
-\acro{W3C}{World Wide Web Consortium}
-\acro{WAFS}{Wide Area File Services}
-\acro{WAIS}{Wide Area Information Server}
-\acro{WAN}{Wide Area Network}
-\acro{WAP}{Wireless Access Point / Wireless Application Protocol}
 \acro{WDS}{Wireless Distribution System}
 \acro{WEP}{Wired Equivalent Privacy}
 \acro{WINS}{Windows Internet Naming Service}
@@ -467,12 +490,7 @@
 \acro{XSL}{Extensible Stylesheet Language}
 \acro{XSL-FO}{Extensible Stylesheet Language – Formatting Objects}
 \acro{XSLT}{XSL Transformation}
-\acro{XSS}{Cross-Site scripting}
-\acro{XDM}{X Window Display Manager}
-\acro{XDMCP}{X Display Manager Control Protocol}
-\acro{XP}{Extreme Programming}
-\acro{XUL}{XML User Interface Language}
-\acro{XVGA}{Extended Video Graphics Adapter}
+\acro{XSS}{Cross-Site Scripting}
 
 %Y
 \acro{Y2K}{Year Two Thousand}
@@ -487,8 +505,8 @@
 \acro{ZFS}{Zettabyte File System}
 \acro{ZCS}{Zero Code Suppression}
 \acro{ZIF}{Zero Insertion Force}
+\acro{ZMA}{Zone Multicast Address}
 \acro{ZOPE}{Z Object Publishing Environment}
-\acro{ZMA}{Zone Multicast Address
 \acro{ZPL}{Z-level Programming Language}
 \end{acronym}
 %
