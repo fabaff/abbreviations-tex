@@ -2,7 +2,7 @@ abbreviations-tex
 =================
 
 A collection of abbreviations (mainly technical and computer sciences). Only
-grouped by starting letter but not further sorting was done. Be aware, German
+grouped by starting letter but no further sorting was done. Be aware, German
 and English is mixed.
 
 Author
