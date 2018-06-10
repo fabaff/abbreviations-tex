@@ -10,10 +10,10 @@ Usage
 
 It's required to include `\usepackage{acronym}` in your master file/document.
 
-- `\ac{KDE}`: The first time you use an acronym, the full name of the acronym along with the acronym in brackets will be printed.
-- `\acs{KDE}`: To get the short version of the acronym.
-- `\acf{KDE}`: To get both versions of the acronym.
-- `\acl{KDE}`: To get only the full name.
+- ``\ac{KDE}``: The first time you use an acronym, the full name of the acronym along with the acronym in brackets will be printed.
+- ``\acs{KDE}``: To get the short version of the acronym.
+- ``\acf{KDE}``: To get both versions of the acronym.
+- ``\acl{KDE}``: To get only the full name.
 
 For further details check: https://mirror.hmc.edu/ctan/macros/latex/contrib/acronym/acronym.pdf
 
